@@ -1,0 +1,6 @@
+msgid "Hello world!"
+msgstr "¡Hola mundo!"
+
+
+msgid "Value of $key is '$value'"
+msgstr "El valor de la variable $key es '$value'"

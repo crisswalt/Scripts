@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "You selected:"
+msgstr "Has seleccionado:"
+
+msgid "An unknown error has occurred!"
+msgstr "¡Ha ocurrido un error desconocido!"
+
+msgid "The $cmd version could not be determined."
+msgstr "No se pudo determinar la versión de $cmd."
+
+msgid "The \$cmd version is too old. Minimum required is \$min_version, but found \$current_version."
+msgstr "La versión de \$cmd es demasiado antigua. El mínimo requerido es \$min_version, pero se encontró \$current_version."
+
+msgid "command not found"
+msgstr "comando no encontrado"
+
+msgid "version"
+msgstr "versión"
+
+msgid "Missing requirements:"
+msgstr "Requerimientos faltantes:"

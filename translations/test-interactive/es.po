@@ -1,0 +1,35 @@
+# translations/test-interactive/es.po
+# Traducciones para el test de interactive.sh
+
+msgid "Interactive System Test"
+msgstr "Prueba del Sistema Interactivo"
+
+msgid "Enter project name"
+msgstr "Ingresa el nombre del proyecto"
+
+msgid "Enter your age"
+msgstr "Ingresa tu edad"
+
+msgid "Select a framework"
+msgstr "Selecciona un framework"
+
+msgid "Choose your favorite color"
+msgstr "Elige tu color favorito"
+
+msgid "Enable TypeScript support"
+msgstr "Habilitar soporte para TypeScript"
+
+msgid "Include testing framework"
+msgstr "Incluir framework de testing"
+
+msgid "Select testing framework"
+msgstr "Selecciona framework de testing"
+
+msgid "Enter your email"
+msgstr "Ingresa tu email"
+
+msgid "Project description (optional)"
+msgstr "Descripción del proyecto (opcional)"
+
+msgid "Save this configuration"
+msgstr "Guardar esta configuración"
