@@ -23,15 +23,6 @@ Execute any script directly from GitHub:
 bash -c "$(curl 'https://raw.githubusercontent.com/crisswalt/Scripts/main/drupal/11/install.sh')"
 ```
 
-## Available Scripts
-
-### Drupal
-- `drupal/11/install.sh` - Interactive Drupal 11 installation
-
-### Tools
-- `tools/nodejs/install.sh` - Node.js installation
-- More scripts in development...
-
 ## For Developers
 
 ### Option 1: Personal Fork (Recommended)
@@ -171,18 +162,27 @@ log_error "Critical error"
 
 ```
 Scripts/
+├── about.me
+├── bootstrap.sh
+├── .env
+├── .gitignore
+├── LICENSE
 ├── README.md
-├── bootstrap.sh              # Base functions
-├── utilities/               # Shared utilities
-│   ├── translator.sh        # Translation system
-│   └── interactive.sh       # Interactive system
-├── translations/            # Translation files
-├── drupal/                  # Drupal scripts
-│   └── 11/
-│       └── install.sh
-└── tools/                   # General tools
-    └── nodejs/
-        └── install.sh
+├── tests
+│   ├── test-bootstrap.sh
+│   ├── test-interactive.sh
+│   ├── test-requirementes.sh
+│   └── test-translator.sh
+├── translations
+│   ├── es.po
+│   ├── test-interactive
+│   │   └── es.po
+│   └── test-translator
+│       └── es.po
+└── utilities
+    ├── interactive.sh
+    ├── requirements.sh
+    └── translator.sh
 ```
 
 ## Environment Variables
